@@ -1003,7 +1003,7 @@ int main(int argc, char *argv[])
 
 
     /* Get runtime threadid and treads count */
-#if 0
+#if 1
 #pragma omp parallel private (ntids, tid)
     {
         ntids = omp_get_num_threads();
